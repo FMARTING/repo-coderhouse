@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<!--
+	Puedo usar otras etiquetas nuevas como <section>/<article>/
+    Tambien utilizan mucho <header> y <footer> para organizar la pagina
+    <nav> sirve para hacer menus desplegables y adentro suele tener unordered lists (<ul><li></li></ul>)
+-->
+<html>
+	<style type="text/css">
+		.error {
+		color:red;
+		}
+	</style>
+	<head>
+		<title>Finanzas LIFORBASQUET</title>
+	</head>
+	<body>
+		<div>
+			<img src="images/logo_lifor.jpg" style="width:100%;height:228px">
+		</div>
+		<form method = "post">
+			<h1><strong>INGRESO AL SISTEMA</strong></h1>
+			<label>
+			
+			<div>Jugador/Nombre de usuario</div>
+			<input type="text" name = "iusuario" value={{ijugador}} >
+			<div class="error">{{errorUsuario}}</div>
+			
+			</label>
+			
+			<label>
+			
+			<div>Password</div>
+			<input type="password" name="ipassword">
+			
+			</label>
+			
+			<br>
+			<br>
+			<input type="submit" value="Iniciar sesion">
+			
+		</form>
+		<p> Si no tenés usuario hace click</p> <a href="/nuevo_usuario"> aquí</a>
+	</body>
+</html>
