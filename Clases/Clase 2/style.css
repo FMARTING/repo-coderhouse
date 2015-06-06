@@ -1,0 +1,27 @@
+body {
+	font-size: 16px;
+}
+
+.PrimerDiv {
+	margin: 10px 50px 700px 1px; /* para que ande tengo que si o si
+	tener el width seteado */
+	/*
+	margin: 10px 20px;
+	En este caso toma solamente 10px arriba y abajo y 20px a la derecha y a la izquierda
+	con solo dos valores seteo los cuatro y me permite centrar facilmente
+	*/
+	/*
+	margin: 0 auto;
+	ahi le estoy diciendo que arriba y abajo sea 0 el margen y que 
+	el de la derecha e izquierda sea automatico
+	*/
+	/*
+	margin-left: 10px;
+	...
+	*/
+	width: 6em;
+	}
+
+.SegundoDiv {
+	width: 10em;
+}
