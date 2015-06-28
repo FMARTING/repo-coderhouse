@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	border: 2px solid black;
+	margin: 10px;
+}
+
+nav {
+	border: 2px solid black;
+	width: 200px;
+	float: left;
+}
+
+section {
+	border: 2px solid black;
+}
+
+.right {
+	margin-left: 200px;
+}

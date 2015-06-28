@@ -1,0 +1,92 @@
+* {
+	box-sizing: border-box;
+}
+
+#content {
+	border: 2px solid black;
+	padding: 5px;
+	width: 50px;
+}
+
+.position-relative-ex {
+	position: relative;
+	top: 10px;
+}
+
+.position-absolute-ex {
+	background-color: red;
+	height: 40px;
+	position: relative;
+	width: 40px;
+}
+
+.position-absolute-ex > div {
+	background-color: green;
+	height: 40px;
+	width: 40px;
+	position: absolute;
+}
+
+body {
+	margin: 0;
+	padding-top: 10px;
+}
+
+.position-fixed {
+	height: 30px;
+	top: 0;
+	position: fixed;
+}
+
+/*.float-ex {
+	height: 80px;
+}*/
+
+.float-left {
+	background-color: red;
+	float: left;
+	height: 40px;
+	width: 40px;
+}
+
+.float-right {
+	background-color: green;
+	float: right;
+	height: 40px;
+	width: 40px;
+}
+
+.clear-both {
+	clear: both;
+}
+
+.clearfix {
+	overflow: auto;
+	/*este es un hack para cortar el flotado y que no haga falta agregar
+	un elemento nuevo*/
+}
+
+.display-inline-ex li {
+	display: inline-block;
+}
+
+.flexbox-ex {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	/*los dos justify-center de arriba ayudan a centrar horizontalmente*/
+	height: 100px;
+	border: 1px solid black;
+}
+/*primero se activa en el parent el flex y luego le indico
+que los hijos van a estar centrados verticalmente*/
+
+.flexbox-ex div {
+	background-color: red;
+	/*height: 40px;*/
+	width: 40px;
+	/*margin: auto; con esto podria centrar tambien horizontalmente */
+}
