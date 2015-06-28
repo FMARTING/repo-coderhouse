@@ -1,0 +1,1 @@
+alert("este alert se corre en index.js");
