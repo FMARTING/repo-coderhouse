@@ -130,8 +130,8 @@ function directorios() {
                 processed++;
                 if(err){
                     console.log("hay un error: " + err);
-                    return;
-                }
+                        return;
+                    }
                 if (result.isDirectory()) {
                     resultado.push(absFilename);
                     
